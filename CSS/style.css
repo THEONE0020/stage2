@@ -130,6 +130,7 @@ body {
 /* Styling for the images within .banner */
 .banner img {
   max-width: 100%;
+
 }
 .text-banner{
   position: absolute;
@@ -176,8 +177,7 @@ body {
 .otherpart
 {
   display: block;
-  position: absolute;
-  top: 38%;
+  position: relative;
   background-color: transparent;
   height: auto;
 }
@@ -254,3 +254,15 @@ body {
   font-size: 13px;
   padding-right: 7%;
 } 
+
+.line{
+  position: relative;
+  width: 500px;
+  height: 10px;
+  background-color: #19283f;
+}
+.test{
+  position: relative;
+  display: block;
+  top: 5%;
+}
