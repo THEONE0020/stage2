@@ -356,15 +356,22 @@ font-size: 20px;
 
 /* Start infos */
 .infos{
-  margin-top: 100px ;
+  margin-top: 30% ;
   /* background-color: #ff3150; */
   width: 100%;
   min-height: 20px;
   position: relative;
+  word-break: break-all;
+
 }
 .infos .right{
   min-height: 100%;
   padding-left: 2%;
+}
+.infos .left{
+  min-height: 100%;
+  padding-left: 3%;
+  max-width: 100%;
 }
 .infos img{
   position: relative;
@@ -377,7 +384,9 @@ font-size: 20px;
   position: relative;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: 900;
-font-size: 15px;
+font-size: 14px;
+margin-left: 5%;
+top: -5%;
 }
 .infos p{
   position: relative;
@@ -385,16 +394,15 @@ font-size: 15px;
   /* font-weight: 900; */
   font-size: 10px;
   line-height: 10px;
-}
-.key h1{
-margin-left: 5%;
-top: -5%;
-}
-.key p {
   top: -11%;
   margin-left: 5%;
-
 }
+.key{
+  margin-bottom: -2%;
+  width: 95%;
+}
+
+
 
 
 
