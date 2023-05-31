@@ -298,7 +298,7 @@ font-size: 20px;
   margin-top: 30%;
   height: 100%;
   width: 100%;
-  /* background-color: #ffc400; */
+  background-color: #ffc400;
 }
 .step1{
   position: absolute;
@@ -320,7 +320,7 @@ font-size: 20px;
 }
 .step4{
   position: absolute;
-  width: 30%;
+  width: 32%;
   left: 69%;
   top: 45%;
 }
@@ -340,8 +340,9 @@ font-size: 20px;
   font-size: 10px;
   line-height: 14px;
 }
-.step1 p{
+.step1 p , .step4 p{
   padding-right: 2%;
 }
+
 
 /* End comment ca marche */
