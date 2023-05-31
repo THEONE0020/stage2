@@ -242,6 +242,7 @@ body {
 
 .prq ul{
   padding-right: 2%;
+  list-style-type: style none;
   list-style: none;
   margin-top: 4%;
 }
@@ -298,7 +299,6 @@ font-size: 20px;
   margin-top: 30%;
   height: 100%;
   width: 100%;
-  background-color: #ffc400;
 }
 .step1{
   position: absolute;
