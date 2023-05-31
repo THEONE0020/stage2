@@ -55,27 +55,27 @@
     <!-- <div class="maindiv"> -->
       <script>
         AOS.init({
-          duration:600,
+          duration:1200,
         });
       </script>
     <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg bg-transparent position-sticky">
+    <nav class="navbar navbar-expand-lg bg-transparent position-fixed">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"
           ><img src="IMGS/logo linecos.png" alt="Linecos" class="navbar-logo"
         /></a>
         <button
-          class="navbar-toggler sticky-top"
-          id="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        class="navbar-toggler ms-auto"
+        id="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -138,7 +138,7 @@
         <h6>Faites de votre passion une entreprise de rêve</h6>
       </div>
     </div>
-    <div class="test">
+    <div class="test" style="margin-top: 68px;">
     <div class="otherpart">
       <!-- Start lancez -->
       <div class="lancez" >
@@ -162,23 +162,22 @@
       <!-- Start prq -->
       <div class="prq" >
         <img src="IMGS/pk.png" alt="" data-aos="fade-up">
-        <!-- <div class="text">
-          <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-          </p>
-        </div> -->
+
         <div class="prq-text d-block">
-        <h1 data-aos="fade-up">Pourquoi créer votre marque de cosmétiques aujourd'hui ?      </h1>
+          <div data-aos="fade-up">
+        <h1>Pourquoi créer votre marque de cosmétiques aujourd'hui ?      </h1>
         <ul>
-          <li data-aos="fade-up">
+          <li>
             <h2>
               <i class="fa-solid fa-circle fa-2xs" style="color: #010203;"></i>  Augmentez vos revenus
             </h2>
             <p>
               En vendant des produits de votre propre marque, Vous avez le potentiel de générer plus de revenus à partir de votre clientèle cible. Cela peut être particulièrement rentable si vous avez un large public engagé qui souhaite acheter les produits dont vous faites la promotion.
             </p>
-          </li>        
-          <li data-aos="fade-up">
+          </li>     
+        </div>
+        <div data-aos="fade-up">
+          <li>
             <h2>
               <i class="fa-solid fa-circle fa-2xs" style="color: #010203;"></i>  Construisez un projet durable
             </h2>
@@ -186,7 +185,7 @@
               En créant votre propre marque de cosmétiques, Vous pouvez créer une entreprise durable à long terme qui a la capacité de croître et de se développer au fil du temps. Cela peut vous fournir une source de revenus stable et lucrative
             </p>
           </li>
-          <li data-aos="fade-up">
+          <li>
             <h2>
               <i class="fa-solid fa-circle fa-2xs" style="color: #010203;"></i>  Soyez créatif et authentique
             </h2>
@@ -194,29 +193,89 @@
               Travailler avec Carmel Cosmetics Labs vous donne un meilleur contrôle sur le processus de développement de produits. Cela peut vous aider à créer des produits qui correspondent à votre marque personnelle et répondent aux besoins spécifiques de votre public.
             </p>
           </li>
+        </div>
         </ul>
       </div>
       </div>
       <!-- End Prq -->
     </div>
-    <hr data-aos="fade-up">
+    <div class="line" data-aos="fade-up"> </div>
+
+    <!-- Start comment ca marche  -->
+    <div class="comment-ca-marche d-flex flex-column justify-content-center align-items-center position-absolute">
+      <h1>Voici comment ça marche</h1>
+      <div class="text-container d-flex ">
+        <div class="step1">
+        <h2>1Parlez à nos experts</h2>
+        <p id="s1">Il vous fourniront un ensemble de  produits qui se vendent bien et dont  votre public cible a besoin. Aucun argumentaire  de vente ou agenda caché.
+        </p>
+      </div>
+    </div>
+      <img src="imgs/your-brand-bottle.png" alt="Bottle" />
+    </div>
+    
+        <!-- <div class="steps"> -->
+          <!-- <div class="steps step1 d-flex justify-content-center align-items-center ">
+              <h2>1Parlez à nos experts</h2>
+              <p id="s1">Il vous fourniront un ensemble de  produits qui se vendent bien et dont  votre public cible a besoin. Aucun argumentaire  de vente ou agenda caché.
+              </p>
+          </div>
+          <div class="steps step2 d-flex justify-content-center align-items-center ">
+              <h2>2Demandez vos échantillons</h2>
+              <p id="s2">Et tester des échantillons préfabriqués de produits sélectionnés. Voyez par vous-même la différence avant de décider de passer à la vitesse supérieure.
+              </p>
+          </div>
+          <div class="steps step3 d-flex justify-content-center align-items-center ">
+            <h2 id="sh3">3Nous nous occupons de tout  le processus</h2>
+            <p id="s3">Du développement de la formule à la conception de l'emballage en passant par l'étiquetage et tout le reste. Donnez nous le feu vert
+            </p>
+        </div>
+        <div class="steps step4 d-flex justify-content-center align-items-center ">
+          <h2>4Recevez vos produits avec votre marque</h2>
+          <p id="s4">...faites livrer votre premier lot à votre adresse en moins d'un mois (ou peut-être même moins selon vos détails d'expédition). </p>
+      </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+    </div>
+    <!-- End comment ca marche -->
   </div>
     <script>
-      var navbarToggler = document.getElementById("navbar-toggler");
-      var navbarCollapse = document.getElementById("navbarSupportedContent");
-      var navbar = document.querySelector(".navbar");
-      var isNavbarDisplayed = false;
+var navbarToggler = document.getElementById("navbar-toggler");
+var navbarCollapse = document.getElementById("navbarSupportedContent");
+var navbar = document.querySelector(".navbar");
+var isNavbarDisplayed = false;
+var scrollvalue = window.scrollY;
 
-      navbarToggler.addEventListener("click", function () {
-        isNavbarDisplayed = !isNavbarDisplayed;
-        if (isNavbarDisplayed) {
-          navbar.classList.remove("bg-transparent");
-          navbar.classList.add("bg-white");
-        } else {
-          navbar.classList.remove("bg-white");
-          navbar.classList.add("bg-transparent");
-        }
-      });
+navbarToggler.addEventListener("click", function () {
+  isNavbarDisplayed = !isNavbarDisplayed;
+  if (isNavbarDisplayed) {
+    navbar.classList.remove("bg-transparent");
+    navbar.classList.add("bg-white");
+  } else {
+    navbar.classList.remove("bg-white");
+    navbar.classList.add("bg-transparent");
+    changebg();
+  }
+});
+
+function changebg() {
+  if (scrollvalue < 10 && !isNavbarDisplayed) {
+    navbar.classList.remove("bg-white");
+    navbar.classList.add("bg-transparent");
+    navbar.style.boxShadow = "none";
+  } else {
+    navbar.classList.add("bg-white");
+    navbar.classList.remove("bg-transparent");
+    navbar.style.boxShadow = "0px 4px 4px rgba(0, 0, 0, 0.25)";
+  }
+}
+
+window.addEventListener("scroll", function () {
+  scrollvalue = window.scrollY;
+  changebg();
+});
+
+
     </script>
 
     <!-- javascript -->
