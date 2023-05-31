@@ -165,7 +165,7 @@ body {
   left: 23%;
 }
 .text-banner h6{
-  font-size: 12px;
+  font-size: 11px;
   line-height: 18px;
   font-weight: 100;
   text-align: center;
@@ -311,25 +311,25 @@ font-size: 20px;
   position: absolute;
   width: 30%;
   left: 9%;
-  top: -5%;
+  top: 0;
 }
 .step2{
   position: absolute;
   width: 39%;
   left: 1%;
-  top: 45%;
+  top: 47%;
 }
 .step3{
   position: absolute;
   width: 40%;
   left: 60%;
-  top: -5%;
+  top: 0;
 }
 .step4{
   position: absolute;
   width: 32%;
   left: 69%;
-  top: 45%;
+  top: 47%;
 }
 .text-container h2{
   /* position: absolute; */
@@ -414,7 +414,7 @@ top: -5%;
   position: relative;
   height: auto;
   width: 100%;
-  margin-top: 140% ;
+  margin-top: 170% ;
   text-align: center;
 }
 
