@@ -22,6 +22,11 @@
   font-family: myriadPro;
   src: url('../fonts/MyriadPro.otf');
 }
+/* Define a custom font called myriadPro */
+@font-face {
+  font-family: Avenir-roman;
+  src: url('../fonts/Avenir-Roman.ttf');
+}
 
 
 /* Custom Properties */
@@ -126,6 +131,7 @@ body {
   position: absolute;
   height: auto;
   top: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Styling for the images within .banner */
@@ -181,7 +187,7 @@ body {
   position: relative;
   height: auto;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 .lancez {
   position: relative;
@@ -207,25 +213,26 @@ body {
 }
 
 .lancez-text .pa-1{
-  margin-top: -2%;
+  margin-top: -3%;
   font-family: ShreeDev0714;
-  font-size: 13px;
+  font-size: 10px;
   padding-right: 6%;
   padding-left: 1%;
 }
 .pa-2{
-  margin-top: -4%;
+  margin-top: -5%;
   font-family: myriadPro;
-  font-size: 11px;
+  font-size: 9px;
   padding-right: 6%;
   padding-left: 1%;
 }
 .prq{
   margin: 07px auto;
+  margin-top: 30px;
 
 }
 .prq img{
-  max-width: 32%;
+  max-width: 43%;
   height: 200px;
   float: left;
   padding: 0 10px 0 0;
@@ -279,8 +286,8 @@ body {
 
 /* Start Comment ca marche */
 .comment-ca-marche{
+  position: relative;
   margin-top: 20px ;
-  /* background-color: #ff3150; */
   width: 100%;
 }
 .comment-ca-marche> h1{
@@ -346,3 +353,50 @@ font-size: 20px;
 
 
 /* End comment ca marche */
+
+/* Start infos */
+.infos{
+  margin-top: 100px ;
+  /* background-color: #ff3150; */
+  width: 100%;
+  min-height: 20px;
+  position: relative;
+}
+.infos .right{
+  min-height: 100%;
+  padding-left: 2%;
+}
+.infos img{
+  position: relative;
+  max-width:55px ;
+  height: 55px;
+  background-color:azure;
+  top: 1%;
+}
+.infos h1{
+  position: relative;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+font-size: 15px;
+}
+.infos p{
+  position: relative;
+  font-family: Avenir-roman;
+  /* font-weight: 900; */
+  font-size: 10px;
+  line-height: 10px;
+}
+.key h1{
+margin-left: 5%;
+top: -5%;
+}
+.key p {
+  top: -11%;
+  margin-left: 5%;
+
+}
+
+
+
+
+/* End infos */
