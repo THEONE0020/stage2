@@ -783,6 +783,9 @@ right: 0;
   padding-left: 1px;
   padding-right: 2px;
   position: absolute;
+
+}
+.right3 p{
   color: black;
   font-family: asheru;
   font-size: 10px;
@@ -793,5 +796,19 @@ right: 0;
   font-size: 15px;
   text-transform: uppercase;
 }
-
+.sec5-div3 {
+  position: absolute;
+  margin-top: 300px;
+}
+.left3 p{
+  color: black;
+  font-family: asheru;
+  font-size: 10px;
+  text-align: start ;
+}
+.left3 p span{
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
 /* End Labo */
