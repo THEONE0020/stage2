@@ -543,7 +543,7 @@ top: -5%;
   position: absolute;
   margin-top:3%;
   left: 1%;
-  max-width: 100%;
+  max-width: 64%;
 }
 .titre3{
   font-family: Arial, Helvetica, sans-serif;
@@ -552,7 +552,7 @@ top: -5%;
 
 }
 .sec1-div2 .pa1{
-padding-right: 9%;
+padding-right: 15%;
 }
 .pa1{
   font-family: ShreeDev0714;
