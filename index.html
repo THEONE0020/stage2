@@ -59,9 +59,13 @@
         });
       </script>
     <!-- start navbar -->
+    
     <nav class="navbar navbar-expand-lg bg-transparent position-fixed">
+      <div class="img-logo">
+        <img src="IMGS/logo linecos.png" alt="Logo">
+      </div>
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
+        <a class="navbar-brand" href="index.php"
           ><img src="IMGS/logo linecos.png" alt="Linecos" class="navbar-logo"
         /></a>
         <button
@@ -79,7 +83,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link active" aria-current="page" href="index.php"
                 >Accueil</a
               >
             </li>
@@ -87,7 +91,7 @@
               <a class="nav-link" href="#">Histoire</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="labo.html">Laboratoir</a>
+              <a class="nav-link" href="labo.php">Laboratoir</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
@@ -109,7 +113,7 @@
             </li>
           </ul>
 
-          <form class="d-flex" role="search">
+          <form class="d-flex search-nav" role="search">
             <input
               class="form-control me-2"
               type="search"
@@ -128,7 +132,8 @@
 
     <!-- start banner -->
     <div class="banner">
-      <img src="IMGS/banner1.jpg" alt="Banner" />
+      <img src="IMGS/banner1.jpg" alt="Banner" id="ban1"/>
+      <img src="IMGS/ban2.jpg" alt="Banner" id="ban2"/>
       <div class="text-banner" data-aos="fade-right">
         <h1>VOUS MÉRITEZ</h1>
         <p>
@@ -141,14 +146,14 @@
     <div class="test" style="margin-top: 68px;">
     <div class="otherpart">
       <!-- Start lancez -->
-      <div class="lancez" >
-        <img src="IMGS/bottle1.png" alt="" data-aos="fade-up">
+      <div class="lancez" data-aos="fade-up">
+        <img src="IMGS/bottle1.png" alt="" >
         <div class="lancez-text d-block">
-        <h1 data-aos="fade-up">Lancez votre marque cosmétique en moins de 30 jours</h1>
-        <p class="pa-1" data-aos="fade-up">
+        <h1 >Lancez votre marque cosmétique en moins de 30 jours</h1>
+        <p class="pa-1" >
           Commencez dès aujourd'hui à créer vos propres produits cosmétiques avec le soutien des meilleurs spécialistes pour bâtir une affaire rentable et obtenir des résultats impressionnants.
         </p>
-        <p class="pa-2" data-aos="fade-up"> 
+        <p class="pa-2"> 
           -Formulations professionnelles​. <br>
           -Ingrédients naturels et sans cruauté.​ <br>
           -Usine de grade pharma certifiée ISO. <br>
@@ -344,6 +349,7 @@ function changebg() {
 window.addEventListener("scroll", function () {
   scrollvalue = window.scrollY;
   changebg();
+  
 });
 
 

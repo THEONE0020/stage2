@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="Bootstrap-fontAw/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Bootstrap-fontAw/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style5.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Load Select2 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <!-- <div class="maindiv"> -->
+      <script>
+        AOS.init({
+          duration:800,
+        });
+      </script>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="IMGS/logo linecos.png" alt="Linecos" class="navbar-logo"
+        /></a>
+        <button
+        class="navbar-toggler ms-auto"
+        id="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Histoire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="labo.html">Laboratoir</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Professionel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COS-SCHOOL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Diagnostique</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Actualités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Où nous trouver? </a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+    
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true" class="minput">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true" class="mlabel">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="" class="minput">
+					<input type="email" name="email" placeholder="Email" required="" class="minput">
+					<input type="password" name="pswd" placeholder="Password" required="" class="minput">
+					<button class="mbutton">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true" class="mlabel">Login</label>
+					<input type="email" name="email" placeholder="Email" required="" class="minput">
+					<input type="password" name="pswd" placeholder="Password" required="" class="minput">
+					<button class="mbutton">Login</button>
+				</form>
+			</div>
+	</div>
+    <!-- javascript -->
+    <script src="Bootstrap-fontAw/js/all.min.js"></script>
+    <script src="Bootstrap-fontAw/js/bootstrap.bundle.min.js"></script>
+    </body>
+    <!-- End navbar -->
